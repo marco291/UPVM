@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 180px;
+    background: #2F7336; 
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #AA3A38, #2F7336);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(1, 50%, 44%, 0.829), hsla(126, 42%, 32%, 0.801)); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header .textos-header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+/*contenido*/
+#logo{
+    width: 180px;
+}
+.contenedor-formulario{
+    width: 600px;
+    background-color: hsla(126, 42%, 32%, 0.753);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #000;
+
+
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+.contenedor-formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.contenedor-formulario .botons{
+    width: 100%;
+    background: hsl(1, 50%, 44%);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+.radio{
+    margin: 15px 0px;
+}
+.et{
+    margin-right: 15px;
+}
+
+.aste{
+    color: #AA3A38;
+    font-size: 14px;
+}
+
+.contenedor-footer{
+    color: rgb(119, 110, 110);
+}
